@@ -1,0 +1,20 @@
+{
+  "name": "doni",
+  "version": "1.0.0",
+  "description": "Get color names from hex values",
+  "main": "src/index.js",
+  "repository": "https://github.com/alejandronanez/doni",
+  "author": "Alejandro Nanez <alejonanez@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "commander": "^2.11.0",
+    "lodash.chunk": "^4.2.0",
+    "minimist": "^1.2.0",
+    "puppeteer": "^0.12.0",
+    "scrape-it": "^3.3.3"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
